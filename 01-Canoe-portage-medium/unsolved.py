@@ -16,11 +16,12 @@ WALKING_SPEED = 3.1 / 60
 rods = input("Input rods:")
 
 rods = float(rods)
-meters = ?
-feet = ?
-miles = ?
-furlongs = ?
-minutes = ?
+meters = int(rods/5)
+feet = float(meters/0.3048)
+miles = float(meters/1609.34)
+furlongs = float(rods/40)
+minutes = int(miles/WALKING_SPEED)
+
 
 
 print("Your input:", rods, "rods.", "\n\n")
