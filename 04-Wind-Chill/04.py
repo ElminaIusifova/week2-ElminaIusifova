@@ -21,3 +21,12 @@ air_temp3 = -10.0
 air_speed3 = 35
 wct_index3 = 35.74 + 0.6215 * air_temp3 - 35.75 * air_speed3 ** 0.16 + 0.4275 * air_temp3 * air_speed3**0.16
 print("Wind index 3:", int(wct_index3))
+
+answer=0
+print (input("Do you want to continue? "))
+
+if answer == "Y":
+    print("Enter air speed: ")
+elif answer =="N":
+    print("Thank you, good bye...")
+
